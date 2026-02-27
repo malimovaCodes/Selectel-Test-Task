@@ -1,7 +1,7 @@
 #  Тестовое задание по направлению «Frontend-разработка»
 
 ## Приложение доступно на GitHub Pages:
-
+https://malimovacodes.github.io/Selectel-Test-Task/
 
 
 ## Инструкция по запуску приложения: 
