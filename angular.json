@@ -5,7 +5,17 @@
   "projects": {
     "test-task-app": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "type": "Component"
+        },
+        "@schematics/angular:service": {
+          "type": "Service"
+        },
+        "@schematics/angular:directive": {
+          "type": "Directive"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -25,6 +35,8 @@
               }
             ],
             "styles": [
+              "src/styles/reset.css",
+              "src/styles/variables.css",
               "src/styles.css"
             ]
           },

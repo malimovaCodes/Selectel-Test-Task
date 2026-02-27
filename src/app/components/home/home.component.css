@@ -1,0 +1,24 @@
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-bg-default);
+}
+
+.home__card {
+    background: white;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px var(--color-shadow);
+    max-width: 600px;
+    text-align: center;
+}
+
+.home__title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-family: var(--font-family-accent);
+    font-weight: 600;
+    color: var(--color-text-on-light);
+}

@@ -1,0 +1,29 @@
+.header {
+    background: var(--color-bg-default);
+    color: var(--color-text-on-dark);
+    padding: 1rem 2rem;
+}
+
+.header__info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.95rem;
+}
+
+.header__section {
+    font-weight: 600;
+    font-family: var(--font-family-accent);
+    font-size: 1.25rem;
+}
+
+.header__divider {
+    opacity: 0.6;
+}
+
+.header__count,
+.header__total {
+    background: var(--color-bg-muted);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+}

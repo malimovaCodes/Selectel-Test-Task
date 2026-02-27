@@ -1,0 +1,13 @@
+<app-header [data]="headerData()" />
+
+<div class="menu-container">
+    <app-sidebar 
+        [sections]="store.getSections()" 
+        [activeSection]="store.selectedSection()"
+        (sectionSelect)="store.selectSection($event)" 
+    />
+    <app-item-list 
+        [items]="store.currentItems()" 
+        (itemToggle)="onItemToggle($event)" 
+    />
+</div>

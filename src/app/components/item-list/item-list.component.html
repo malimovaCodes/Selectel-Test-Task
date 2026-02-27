@@ -1,0 +1,22 @@
+<div class="item-list">
+    @for (item of items; track item.id) {
+    <label class="item-card">
+        <div class="item-card__checkbox">
+            <input 
+                type="checkbox" 
+                [checked]="item.checked" 
+                (change)="onCheckboxChange(item.id, $event)"
+                class="custom-checkbox"
+            >
+        </div>
+        <div class="item-card__content">
+            <span class="item-card__name">{{ item.name }}</span>
+            <span class="item-card__value">Value: {{ item.value }}</span>
+        </div>
+    </label>
+    } @empty {
+    <div class="item-list--empty">
+        <p>Нет элементов для отображения</p>
+    </div>
+    }
+</div>

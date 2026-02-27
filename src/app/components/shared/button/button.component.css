@@ -1,0 +1,19 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    background: var(--color-bg-default);
+    color: var(--color-text-on-dark);
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px var(--color-shadow);
+}

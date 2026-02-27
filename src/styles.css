@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: var(--font-family-base);
+}
+
+@font-face {
+    font-family: 'Manrope', sans-serif;
+    src: url('./assets/fonts/Manrope.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Playfair Display', serif;
+    src: url('./assets/fonts/PlayfairDisplay.ttf') format('opentype');
+}
